@@ -1,6 +1,6 @@
 # 구글 프로바이더 설정
 provider "google" {
-  project = "project-5595e894-55c8-4921-b9f"
+  project = var.project_id
   region  = "asia-northeast3"
 }
 
